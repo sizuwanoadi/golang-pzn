@@ -2,6 +2,7 @@ go 1.19
 
 use (
 	./golang-context
+	./golang-database
 	./golang-goroutines
 	./golang-unit-test
 )
