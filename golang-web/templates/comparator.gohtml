@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+</head>
+<body>
+    <!--  Operator perbandingan
+    /*
+        eq : ==
+        ne : !=
+        lt : <
+        le : <=
+        gt : >
+        ge : >=
+    **/ -->
+    {{ if ge .Value 90 }}
+    <h1>Wow hebat</h1>
+    {{ else if ge .Value 60 }}
+    <h1>NT, kawan</h1>
+    {{ else }}
+    <h1>Coba lagi</h1>
+    {{ end }}
+</body>
+</html>
