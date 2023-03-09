@@ -5,6 +5,7 @@ use (
 	./golang-database
 	./golang-embed
 	./golang-goroutines
+	./golang-router
 	./golang-unit-test
 	./golang-web
 )
